@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BlogPage from "./pages/BlogPage";
 import AuthPage from "./pages/AuthPage";
+import EarningPage from "./pages/EarningPage";
 
 function Layout() {
   const location = useLocation();
@@ -21,6 +22,7 @@ function Layout() {
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/login" element={<AuthPage />} />
+        <Route path="/earning" element={<EarningPage />} />
       </Routes>
 
       {!shouldHideLayout && <Footer />}

@@ -24,7 +24,7 @@ const Header = () => {
             path: '#',
             isDropdown: true,
             dropdownItems: [
-                { name: 'Affiliate Program', path: '/earning/affiliate', icon: TrendingUp },
+                { name: 'earning', path: '/earning', icon: TrendingUp },
                 { name: 'Referral Bonus', path: '/earning/referral', icon: Gift },
                 { name: 'Ad Revenue Share', path: '/earning/ads', icon: DollarSign },
             ]
