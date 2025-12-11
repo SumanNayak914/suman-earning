@@ -25,11 +25,11 @@ const Header = () => {
             isDropdown: true,
             dropdownItems: [
                 { name: 'earning', path: '/earning', icon: TrendingUp },
-                { name: 'Referral Bonus', path: '/earning/referral', icon: Gift },
-                { name: 'Ad Revenue Share', path: '/earning/ads', icon: DollarSign },
+                { name: 'Referral Bonus', path: '/ReferralPage', icon: Gift },
+                { name: 'Ad Revenue Share', path: '/FAQPage', icon: DollarSign },
             ]
         },
-        { name: 'FAQ', path: '/faq', isDropdown: false },
+        { name: 'FAQ', path: '/FAQPage', isDropdown: false },
         { name: 'Download', path: '/download', isDropdown: false },
         { name: 'Blog', path: '/blog', isDropdown: false },
     ];

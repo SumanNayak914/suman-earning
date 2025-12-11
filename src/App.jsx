@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import BlogPage from "./pages/BlogPage";
 import AuthPage from "./pages/AuthPage";
 import EarningPage from "./pages/EarningPage";
+import ReferralPage from "./pages/ReferralPage";
+import FAQPage from "./pages/FAQPage";
 
 function Layout() {
   const location = useLocation();
@@ -23,6 +25,8 @@ function Layout() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/login" element={<AuthPage />} />
         <Route path="/earning" element={<EarningPage />} />
+        <Route path="/ReferralPage" element={<ReferralPage />} />
+        <Route path="/FAQPage" element={<FAQPage />} />
       </Routes>
 
       {!shouldHideLayout && <Footer />}
